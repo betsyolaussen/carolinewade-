@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>src</title>
+
+    <style>
+      @font-face {
+        font-family: "iA Writer";
+        src: url("https://raw.githack.com/iaolo/iA-Fonts/master/iA Writer Mono/Webfonts/iAWriterMonoS-Regular.woff2");
+      }
+
+      @font-face {
+        font-family: "iA Writer";
+        font-weight: 700;
+        src: url("https://raw.githack.com/iaolo/iA-Fonts/master/iA Writer Mono/Webfonts/iAWriterMonoS-Bold.woff2");
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        font-size: inherit;
+      }
+
+      body {
+        font-family: "iA Writer";
+        line-height: 1.5;
+        font-size: 16px;
+      }
+
+      a {
+        color: #2727e6;
+        text-decoration: none;
+        border-bottom: 2px solid #eeeeee;
+        transition: border-bottom 0.25s;
+      }
+
+      a:hover {
+        border-bottom-color: #2727e6cc;
+      }
+
+      main {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        width: 100%;
+      }
+
+      nav, article {
+        height: 100vh;
+        overflow: scroll;
+      }
+
+      nav {
+        padding: 40px;
+        background: #f6f6f8;
+      }
+
+      pre {
+        font-family: "iA Writer";
+        font-size: 16px;
+        line-height: 1.5;
+        tab-size: 4;
+        padding: 40px;
+      }
+      
+      nav div {
+        padding: 24px 0 0 0;
+      }
+
+      article div.media {
+        padding: 40px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      article div.media img {
+        object-fit: contain;
+        max-width: 100%;
+        max-height: 100%;
+      }
+
+    </style>
+  </head>
+
+  <body>
+<main>
+  <nav>
+    <h1>
+HW 01 The Pen    </h1>
+
+    <div>
+      <h2>Files</h2>
+
+        <p><a href="/_src/_base.css">_base.css</a></p>
+        <p><a href="/_src/end.svg">end.svg</a></p>
+        <p><a href="/_src/index.html">index.html</a></p>
+        <p><a href="/_src/info.svg">info.svg</a></p>
+        <p><a href="/_src/is-mightier.svg">is-mightier.svg</a></p>
+        <p><a href="/_src/style.css">style.css</a></p>
+        <p><a href="/_src/than.svg">than.svg</a></p>
+        <p><a href="/_src/the-pen.svg">the-pen.svg</a></p>
+        <p><a href="/_src/the-sword.svg">the-sword.svg</a></p>
+    </div>
+
+    <div>
+      <h2>Domains</h2>
+
+      <p><a href="https://hw-01-the-pen.superhi.com/">hw-01-the-pen.superhi.com</a></p>
+    </div>
+  </nav>
+
+  <article>
+        <pre>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: &#39;&#39;;
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img, iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+input, textarea, select {
+  font: inherit;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+        </pre>
+  </article>
+</main>  </body>
+</html>
